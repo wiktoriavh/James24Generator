@@ -78,7 +78,6 @@
 }
 
 #br-application-generator .br-logo {
-  /* width: 150px; */
   flex: 1;
 }
 
@@ -145,12 +144,18 @@
   font-family: var(--font-family);
 }
 
+
+
 #br-application-generator button:hover {
   background: var(--pink);
 }
 
 #br-application-generator button:focus {
   background: var(--dark-grey);
+}
+
+#br-application-generator button.br-chosen {
+  background: var(--pink);
 }
 
 #br-application-generator .application-status {
@@ -183,10 +188,52 @@
   flex: 1;
 }
 
-
+#br-application-generator .br-warning {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%);
+  width: 85%;
+}
 
 @media (min-width: 768px) {
   #br-application-generator {
     --font-size: 1.1rem;
+    margin: auto;
+    height: 100px;
+  }
+
+  #br-application-generator .br-square {
+    /* max-width: 788px;
+    width: 100%; */
+    margin: auto;
+    position: static;
+    padding-top: 0;
+    height: 100px;
+  }
+
+  #br-application-generator .br-square .br-application-background {
+    height: auto;
+  }
+
+  #br-application-generator .br-application-background,
+  #br-application-generator .br-application-background.start
+  #br-application-generator .br-application-background.end {
+    max-width: 788px;
+    width: 100%;
+    margin: auto;
+  }
+
+  #br-application-generator .br-right-col .br-gif {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  #br-application-generator .br-right-col img,
+  #br-application-generator .br-left-col img {
+    height: 150px;
+    margin: 1rem 0;
+    width: auto;
   }
 }
