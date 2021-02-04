@@ -26,7 +26,7 @@ export const ApplicationStart = (props) => {
             fullWidth="true"
             className="br-button-pink"
           >
-            Abschicken
+            Start
           </Button>
         </div>
       </div>
