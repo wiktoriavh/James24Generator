@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import ApplicationLetter from './ApplicationLetter';
+import { ApplicationLetter } from './ApplicationLetter';
 
 ReactDOM.render(
   <ApplicationLetter />,
