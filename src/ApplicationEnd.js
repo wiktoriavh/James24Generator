@@ -73,8 +73,8 @@ export const ApplicationEnd = (props) => {
         </div>
       </div>
       <div className="br-final-output">
-        {props.outputArray.map((el) => (
-          <p>{el}</p>
+        {props.checkAgainst.map((el) => (
+          <p>{props.output[el.title]}</p>
         ))}
       </div>
     </>
