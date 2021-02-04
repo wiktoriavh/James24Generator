@@ -1,30 +1,156 @@
-#br-application-generator {
-  --turquoise: #46BDC6;
-  --pink: #E14D9C;
-  --dark: #434343;
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  width: 700px;
+#br-application-generator {
+  --turquoise: #4ECAC2;
+  --pink: #E14D9C;
+  --dark-grey: #434343;
+  --light-grey: #EEEEEE;
+  --font-size: 0.9rem;
+  --font-family: "Courier 10 Pitch", Courier, monospace;
+
+  width: 100%;
   margin: auto;
-  border-radius: 50px;
-  margin: 25px;
-  padding: 25px;
-  font-size: 1.1rem;
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+  box-sizing: border-box;
+
+  
+}
+
+#br-application-generator .br-square {
+  position: relative;
+  height: 0;
+  padding-top: 100%;
+  width: 100%;
+}
+
+#br-application-generator .br-application-background {
   background-color: var(--turquoise);
+  border-radius: 50px;
+  padding: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#br-application-generator .br-square .br-application-background {
+  height: 100%;
+}
+
+#br-application-generator .br-application-background.page {
+  border-radius: 0px;
+  min-height: 100vh;
+  background: var(--light-grey);
+}
+
+
+
+#br-application-generator .br-application-background.start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#br-application-generator .br-left-col {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+#br-application-generator .br-right-col {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#br-application-generator .br-start-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+}
+
+#br-application-generator .br-logo {
+  /* width: 150px; */
+  flex: 1;
+}
+
+#br-application-generator img {
+  width: 100%;
+}
+
+#br-application-generator .br-application-background .application-final {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#br-application-generator .br-application-background .application-final > p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+#br-application-generator .br-application-background .application-final > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex: 1;
+}
+
+#br-application-generator .br-final-output {
+  background: var(--light-grey);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+#br-application-generator .br-final-output p {
+  margin: 1rem 0;
+}
+
+#br-application-generator .br-button-pink,
+#br-application-generator .br-button-pink:focus {
+  background: var(--pink);
+}
+
+#br-application-generator .br-arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#br-application-generator .br-arrows * {
+  flex: 1;
 }
 
 #br-application-generator button {
-  background: var(--dark);
+  background: var(--dark-grey);
   border: 0;
   color: white;
-  font-size: 1.1rem;
+  font-size: var(--font-size);
   padding: 10px;
   margin: 10px 0;
   border-radius: 15px;
-  border-color: blue;
+  font-family: var(--font-family);
 }
 
 #br-application-generator button:hover {
   background: var(--pink);
+}
+
+#br-application-generator button:focus {
+  background: var(--dark-grey);
 }
 
 #br-application-generator .application-status {
@@ -32,12 +158,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* color: var(--dark); */
 }
 
 #br-application-generator .application-status span:nth-child(1) {
   font-size: .8rem;
   font-weight: 700;
+  
 }
 
 #br-application-generator .application-status span:nth-child(2) {
@@ -52,4 +178,15 @@
 #br-application-generator .application-final form {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  flex: 1;
+}
+
+
+
+@media (min-width: 768px) {
+  #br-application-generator {
+    --font-size: 1.1rem;
+  }
 }
