@@ -56,7 +56,7 @@ export const ApplicationEnd = (props) => {
                 />
                 <FormControlLabel
                   control={<Checkbox name="newsletter" />}
-                  label="Ja, ich möchte einen auf meine Interessen zugeschnittenen Newsletter erhalten. Dafür erlaube ich der James24, mein E-Mail-Öffnungs-, Klick- und Downloadverhalten zu analysieren und ein personenbezogenes Nutzungsprofil zu erstellen. Diese Einwilligung kann ich jederzeit gemäß Datenschutzerklärung widerrufen."
+                  label="Ja, ich möchte einen auf meine Interessen zugeschnittenen Newsletter erhalten."
                   onChange={checkboxChange}
                 />
                 <Button
