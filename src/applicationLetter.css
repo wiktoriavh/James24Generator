@@ -49,6 +49,7 @@
   border-radius: 0px;
   min-height: 100vh;
   background: var(--dark-grey);
+  position: static;
 }
 
 
@@ -74,8 +75,12 @@
   color: white;
 }
 
+#br-application-generator .br-right-col button {
+  /* margin: 0;
+  margin-right: auto; */
+}
+
 #br-application-generator .br-start-title {
-  text-align: center;
   font-size: 1.3rem;
   font-weight: 700;
   color: white;
@@ -92,6 +97,7 @@
 
 #br-application-generator .br-heading {
   font-size: var(--heading-size);
+  text-align: left;
 }
 
 #br-application-generator .br-application-background .application-final {
@@ -132,6 +138,10 @@
 #br-application-generator .br-button-pink:focus {
   background: var(--pink);
   padding: 10px 20px;
+  margin: 1em auto 0 0;
+}
+
+#br-application-generator .application-final .br-button-pink {
   margin: 0 auto;
 }
 
@@ -225,6 +235,10 @@
   width: 85%;
 }
 
+#br-application-generator .MuiCheckbox-colorSecondary.Mui-checked {
+  color: var(--pink);
+}
+
 @media (min-width: 768px) {
   #br-application-generator {
     --font-size: 1.1rem;
@@ -268,5 +282,10 @@
     height: 150px;
     margin: 1rem 0;
     width: auto;
+  }
+
+  
+  #br-application-generator .br-right-col button {
+    /* margin: 10px auto 10px 0; */
   }
 }
