@@ -88,9 +88,7 @@ export const ApplicationLetter = () => {
               height="16"
               viewBox="0 0 26 16"
             >
-              <path
-                d="M13,0,26,16H0Z"
-              />
+              <path d="M13,0,26,16H0Z" />
             </svg>
           </button>
           <button
@@ -103,9 +101,7 @@ export const ApplicationLetter = () => {
               height="16"
               viewBox="0 0 26 16"
             >
-              <path
-                d="M13,0,26,16H0Z"
-              />
+              <path d="M13,0,26,16H0Z" />
             </svg>
           </button>
         </div>
