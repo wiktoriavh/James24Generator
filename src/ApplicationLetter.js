@@ -82,13 +82,31 @@ export const ApplicationLetter = () => {
             className="br-arrow-left"
             onClick={() => handleNextPrevButton('prev')}
           >
-            &lt;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="16"
+              viewBox="0 0 26 16"
+            >
+              <path
+                d="M13,0,26,16H0Z"
+              />
+            </svg>
           </button>
           <button
-            className="br-arrow-left"
+            className="br-arrow-right"
             onClick={() => handleNextPrevButton('next')}
           >
-            &gt;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="16"
+              viewBox="0 0 26 16"
+            >
+              <path
+                d="M13,0,26,16H0Z"
+              />
+            </svg>
           </button>
         </div>
         <div className="application-answers">
