@@ -130,7 +130,20 @@
 }
 
 #br-application-generator .br-arrows * {
-  flex: 1;
+  width: 40%;
+}
+
+#br-application-generator .br-arrows svg {
+  width: 1rem;
+  fill: white;
+}
+
+#br-application-generator .br-arrows .br-arrow-left svg {
+  transform: rotate(-90deg);
+}
+
+#br-application-generator .br-arrows .br-arrow-right svg {
+  transform: rotate(90deg);
 }
 
 #br-application-generator button {
