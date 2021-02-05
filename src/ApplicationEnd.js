@@ -51,12 +51,12 @@ export const ApplicationEnd = (props) => {
                 </FormHelperText>
                 <FormControlLabel
                   control={<Checkbox name="template" />}
-                  label="Template OK"
+                  label="Ja, ich willige in die Datenschutzerklärung von James24 ein."
                   onChange={checkboxChange}
                 />
                 <FormControlLabel
                   control={<Checkbox name="newsletter" />}
-                  label="Newsletter OK"
+                  label="Ja, ich möchte einen auf meine Interessen zugeschnittenen Newsletter erhalten. Dafür erlaube ich der James24, mein E-Mail-Öffnungs-, Klick- und Downloadverhalten zu analysieren und ein personenbezogenes Nutzungsprofil zu erstellen. Diese Einwilligung kann ich jederzeit gemäß Datenschutzerklärung widerrufen."
                   onChange={checkboxChange}
                 />
                 <Button
