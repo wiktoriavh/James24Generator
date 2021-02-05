@@ -111,8 +111,9 @@ export const ApplicationLetter = () => {
         </div>
         <div className="application-answers">
           {applicationQuestions[currentQuestion].answerOptions.map(
-            (answerOption) => (
+            (answerOption, index) => (
               <button
+                key={index}
                 className={
                   Object.values(chosenAnswer).some(
                     (answer) => answer === answerOption
