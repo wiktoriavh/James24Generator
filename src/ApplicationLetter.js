@@ -71,11 +71,13 @@ export const ApplicationLetter = () => {
     return (
       <div className="br-application-background page">
         <div className="application-status">
-          <span>
+          <span className="br-para">
             {currentQuestion + 1}/{applicationQuestions.length}
           </span>
-          <span>{applicationQuestions[currentQuestion].title}</span>
-          <span>Wähle einen Baustein</span>
+          <span className="br-heading">
+            {applicationQuestions[currentQuestion].title}
+          </span>
+          <span className="br-para">Wähle einen Baustein</span>
         </div>
         <div className="br-arrows">
           <button
@@ -115,7 +117,7 @@ export const ApplicationLetter = () => {
                     (answer) => answer === answerOption
                   )
                     ? 'br-chosen'
-                    : undefined
+                    : 'br-para'
                 }
                 onClick={() =>
                   handleButtonClick(
