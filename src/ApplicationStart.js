@@ -9,22 +9,22 @@ export const ApplicationStart = (props) => {
     <div className="br-square">
       <div className="br-application-background start">
         <div className="br-left-col">
-          <div className="br-logo">
-            <img src={logo} />
+          <div className="br-gif">
+            <img src={gif} />
           </div>
         </div>
 
         <div className="br-right-col">
-          <p className="br-start-title">Anschreiben Generator</p>
-          <div className="br-gif">
-            <img src={gif} />
-          </div>
+          <p className="br-start-title br-heading">Anschreiben Generator</p>
+          <p className="br-para">
+            Hier kannst du dir deine individuelle Anschreibung
+            generieren lassen.
+          </p>
           <Button
             onClick={props.handleButtonStart}
             variant="contained"
             color="secondary"
-            fullWidth="true"
-            className="br-button-pink"
+            className="br-button-pink br-para"
           >
             Start
           </Button>
