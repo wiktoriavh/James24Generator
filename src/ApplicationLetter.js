@@ -117,7 +117,9 @@ export const ApplicationLetter = () => {
                 className={
                   Object.values(chosenAnswer).some(
                     (answer) => answer === answerOption
-                  ) && 'br-chosen'
+                  )
+                    ? 'br-chosen'
+                    : undefined
                 }
                 onClick={() =>
                   handleButtonClick(
