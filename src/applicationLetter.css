@@ -17,7 +17,7 @@
   --sans-serif: 'Roboto', sans-serif;
 
   width: 100%;
-  margin: auto;
+  margin: 0 -25px;
   font-size: var(--font-size);
   font-family: var(--sans-serif);
   box-sizing: border-box;
@@ -37,12 +37,12 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: calc(100% + 50px);
   box-sizing: border-box;
 }
 
 #br-application-generator .br-square .br-application-background {
-  height: 100%;
+  height: calc(100% + 50px);
 }
 
 #br-application-generator .br-application-background.page {
@@ -98,6 +98,7 @@
 #br-application-generator .application-answers .br-para,
 #br-application-generator .application-answers .br-chosen {
   font-size: 0.6em;
+  height: 180px;
 }
 
 #br-application-generator .br-heading {
@@ -299,5 +300,7 @@
   #br-application-generator .application-answers .br-para,
   #br-application-generator .application-answers .br-chosen {
     font-size: 0.8em;
+    height: 130px;
+    width: 100%;
   }
 }
