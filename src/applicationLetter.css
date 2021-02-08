@@ -296,4 +296,8 @@
     width: auto;
   }
 
+  #br-application-generator .application-answers .br-para,
+  #br-application-generator .application-answers .br-chosen {
+    font-size: var(--font-size);
+  }
 }
