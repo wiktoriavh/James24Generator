@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  TextField,
   FormControlLabel,
   Checkbox,
   FormHelperText,
@@ -39,23 +38,27 @@ export const ApplicationEnd = (props) => {
               <div>wurde abgeschickt. :)</div>
             ) : (
               <form onSubmit={handleFormSubmit}>
-                <TextField
-                  id="application-generator-e-mail"
-                  label="Deine E-Mail"
-                  variant="filled"
+                <label for="br-email">Deine E-Mail</label>
+                <input
+                  id="br-email"
                   type="email"
-                  onChange={checkboxChange}
-                />
+                  name="email"
+                  required
+                ></input>
                 <FormHelperText id="application-helper-text">
                   Wir teilen nie deine E-Mail mit anderen.
                 </FormHelperText>
                 <FormControlLabel
-                  control={<Checkbox name="template" />}
+                  control={
+                    <Checkbox name="template" required="true" />
+                  }
                   label="Ja, ich willige in die Datenschutzerklärung von James24 ein."
                   onChange={checkboxChange}
                 />
                 <FormControlLabel
-                  control={<Checkbox name="newsletter" />}
+                  control={
+                    <Checkbox name="newsletter" required="true" />
+                  }
                   label="Ja, ich möchte einen auf meine Interessen zugeschnittenen Newsletter erhalten."
                   onChange={checkboxChange}
                 />
