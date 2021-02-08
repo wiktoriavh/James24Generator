@@ -80,11 +80,6 @@
   color: white;
 }
 
-#br-application-generator .br-right-col button {
-  /* margin: 0;
-  margin-right: auto; */
-}
-
 #br-application-generator .br-start-title {
   font-size: 1.3rem;
   font-weight: 700;
@@ -301,7 +296,4 @@
     width: auto;
   }
 
-  #br-application-generator .br-right-col button {
-    /* margin: 10px auto 10px 0; */
-  }
 }
