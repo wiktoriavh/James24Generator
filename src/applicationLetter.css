@@ -4,17 +4,17 @@
 }
 
 #br-application-generator {
-  --turquoise: #4ECAC2;
+  --turquoise: #4ecac2;
   --turquoise-hover: #6aada9;
-  --pink: #E14D9C;
+  --pink: #e14d9c;
   --pink-hover: #953166;
   --dark-grey: #434343;
-  --light-grey: #EEEEEE;
+  --light-grey: #eeeeee;
   --medium-grey: #666666;
   --heading-size: 1.5em;
   --para-size: 1.1em;
-  --monospace: "Courier 10 Pitch", Courier, monospace;
-  --sans-serif: "Roboto", sans-serif;
+  --monospace: 'Courier 10 Pitch', Courier, monospace;
+  --sans-serif: 'Roboto', sans-serif;
 
   width: 100%;
   margin: auto;
@@ -51,8 +51,6 @@
   background: var(--dark-grey);
   position: static;
 }
-
-
 
 #br-application-generator .br-application-background.start {
   display: flex;
@@ -112,14 +110,19 @@
   text-align: left;
 }
 
-#br-application-generator .br-application-background .application-final {
+#br-application-generator
+  .br-application-background
+  .application-final {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
 
-#br-application-generator .br-application-background .application-final > p {
+#br-application-generator
+  .br-application-background
+  .application-final
+  > p {
   text-align: center;
   font-size: 1.3rem;
   font-weight: 700;
@@ -127,7 +130,10 @@
   color: white;
 }
 
-#br-application-generator .br-application-background .application-final > div {
+#br-application-generator
+  .br-application-background
+  .application-final
+  > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,8 +207,6 @@
   font-family: var(--font-family);
 }
 
-
-
 #br-application-generator button:hover {
   background: var(--pink);
 }
@@ -270,8 +274,10 @@
   }
 
   #br-application-generator .br-application-background,
-  #br-application-generator .br-application-background.start
-  #br-application-generator .br-application-background.end {
+  #br-application-generator
+    .br-application-background.start
+    #br-application-generator
+    .br-application-background.end {
     max-width: 788px;
     width: 100%;
     margin: auto;
@@ -286,7 +292,6 @@
   #br-application-generator .br-right-col .br-gif {
     display: flex;
     justify-content: center;
-    
   }
 
   #br-application-generator .br-right-col img,
@@ -296,7 +301,6 @@
     width: auto;
   }
 
-  
   #br-application-generator .br-right-col button {
     /* margin: 10px auto 10px 0; */
   }
