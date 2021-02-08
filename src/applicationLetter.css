@@ -298,6 +298,6 @@
 
   #br-application-generator .application-answers .br-para,
   #br-application-generator .application-answers .br-chosen {
-    font-size: var(--font-size);
+    font-size: 0.8em;
   }
 }
