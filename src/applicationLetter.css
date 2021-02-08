@@ -102,6 +102,11 @@
   font-size: var(--para-size);
 }
 
+#br-application-generator .application-answers .br-para,
+#br-application-generator .application-answers .br-chosen {
+  font-size: 0.8em;
+}
+
 #br-application-generator .br-heading {
   font-size: var(--heading-size);
   text-align: left;
