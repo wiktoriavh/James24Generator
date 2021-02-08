@@ -20,7 +20,7 @@ export const applicationQuestions = [
   {
     title: 'Erfahrung',
     answerOptions: [
-      'In meiner [[Tätigkeit bei einer der führenden studentischen Unternehmensberatungen Deutschlands „Hanseatic Consulting - Studentische Unternehmensberatung e.V.“]] lerne ich komplexe Probleme aus der Praxis zu erfassen und lösungsorientiert anzugehe.',
+      'In meiner [[ERFAHRUNG]] lerne ich komplexe Probleme aus der Praxis zu erfassen und lösungsorientiert anzugehe.',
       'Neben meinem Fachwissen in den Bereichen [[FACHWISSEN]] konnte ich bei verschiedenen Projekten schon erste Praxiserfahrungen sammeln. Im Rahmen des Studienprojektes „[[PROJEKTNAME]]“ arbeitete ich zudem zusammen mit einem Team aus Studenten für Unternehmen wie die [[FIRMA]].',
       'Durch mehrere Praktika konnte ich die theoretischen Kenntnisse in der Praxis anwenden. Viele Projekte wurden von mir selbst gestaltet und durchgeführt, die Projekte können Sie sich gerne unter [[ANLAGE]] ansehen.',
       'Seit mehr als einem Jahr bin ich als [[FUNKTION]] in der [[FIRMA]] tätig und bin bereits intensiv in der Koordiantaion der [[MITARBEITER]] und die Abwicklung der [[ABTEILUNG]] eingebunden. Es bereitet mir viel Freude meine [[SKILLS]] und meine [[KENNTNISSE]] zu verbinden und gewinnbringend einzusetzen.',
