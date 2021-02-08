@@ -1,16 +1,13 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
 
-import gif from './touch-da-fishy.gif';
-import logo from './logo.jpg';
-
 export const ApplicationStart = (props) => {
   return (
     <div className="br-square">
       <div className="br-application-background start">
         <div className="br-left-col">
-          <div className="br-gif">
-            <img src={gif} />
+          <div>
+            <img src={"https://campusjames.com/wp-content/uploads/2021/02/applicationSquarePreview.gif"} />
           </div>
         </div>
 
