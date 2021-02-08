@@ -10,11 +10,6 @@ export const ApplicationEnd = (props) => {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  function checkboxChange(changed) {
-    // console.dir(changed.target.name);
-    // console.log(changed);
-  }
-
   function handleFormSubmit(submit) {
     submit.preventDefault();
     setSubmitting(true);
@@ -53,14 +48,12 @@ export const ApplicationEnd = (props) => {
                     <Checkbox name="template" required="true" />
                   }
                   label="Ja, ich willige in die Datenschutzerklärung von James24 ein."
-                  onChange={checkboxChange}
                 />
                 <FormControlLabel
                   control={
                     <Checkbox name="newsletter" required="true" />
                   }
                   label="Ja, ich möchte einen auf meine Interessen zugeschnittenen Newsletter erhalten."
-                  onChange={checkboxChange}
                 />
                 <Button
                   type="submit"
