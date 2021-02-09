@@ -16,8 +16,8 @@
   --monospace: 'Courier 10 Pitch', Courier, monospace;
   --sans-serif: 'Roboto', sans-serif;
 
-  width: 100%;
-  margin: 0 -25px;
+  width: calc(100% + 50px);
+  margin: 1em -25px 0;
   font-size: var(--font-size);
   font-family: var(--sans-serif);
   box-sizing: border-box;
@@ -37,12 +37,12 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(100% + 50px);
+  /* width: calc(100% + 50px); */
   box-sizing: border-box;
 }
 
 #br-application-generator .br-square .br-application-background {
-  height: calc(100% + 50px);
+  height: 100%;
 }
 
 #br-application-generator .br-application-background.page {
@@ -57,8 +57,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  height: 100%;
 }
 
 #br-application-generator .br-left-col {
@@ -123,7 +122,6 @@
   text-align: center;
   font-size: 1.3rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
   color: white;
 }
 
@@ -143,7 +141,7 @@
   padding: 1rem;
   margin: 1rem 0;
   font-family: var(--monospace);
-  width: calc(100% + 50px);
+  /* width: calc(100% + 50px); */
 }
 
 #br-application-generator .br-final-output p {
@@ -239,6 +237,7 @@
   justify-content: space-between;
   height: 100%;
   flex: 1;
+  margin-top: 0;
 }
 
 #br-application-generator .br-warning {
