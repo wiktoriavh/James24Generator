@@ -98,7 +98,6 @@
 #br-application-generator .application-answers .br-para,
 #br-application-generator .application-answers .br-chosen {
   font-size: 0.6em;
-  height: 180px;
 }
 
 #br-application-generator .br-heading {
@@ -300,7 +299,7 @@
   #br-application-generator .application-answers .br-para,
   #br-application-generator .application-answers .br-chosen {
     font-size: 0.8em;
-    height: 130px;
+
     width: 100%;
   }
 }
