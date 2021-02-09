@@ -80,30 +80,6 @@ export const ApplicationLetter = () => {
           <span className="br-para">Wähle einen Baustein</span>
         </div>
 
-        <div className="application-answers">
-          {applicationQuestions[currentQuestion].answerOptions.map(
-            (answerOption, index) => (
-              <button
-                key={index}
-                className={
-                  Object.values(chosenAnswer).some(
-                    (answer) => answer === answerOption
-                  )
-                    ? 'br-chosen'
-                    : 'br-para'
-                }
-                onClick={() =>
-                  handleButtonClick(
-                    answerOption,
-                    applicationQuestions[currentQuestion].title
-                  )
-                }
-              >
-                {answerOption}
-              </button>
-            )
-          )}
-        </div>
         <div className="br-arrows">
           <button
             className="br-arrow-left"
@@ -132,6 +108,32 @@ export const ApplicationLetter = () => {
             </svg>
           </button>
         </div>
+
+        <div className="application-answers">
+          {applicationQuestions[currentQuestion].answerOptions.map(
+            (answerOption, index) => (
+              <button
+                key={index}
+                className={
+                  Object.values(chosenAnswer).some(
+                    (answer) => answer === answerOption
+                  )
+                    ? 'br-chosen'
+                    : 'br-para'
+                }
+                onClick={() =>
+                  handleButtonClick(
+                    answerOption,
+                    applicationQuestions[currentQuestion].title
+                  )
+                }
+              >
+                {answerOption}
+              </button>
+            )
+          )}
+        </div>
+
         {warning && (
           <Alert
             className="br-warning"
