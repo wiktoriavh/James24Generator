@@ -20,9 +20,11 @@ export const ApplicationEnd = (props) => {
     }, 3000);
   }
 
+  console.log(props.checkAgainst);
+
   return (
     <>
-      <div className="br-square">
+      {/* <div className="br-square">
         <div className="br-application-background end">
           <div className="application-final">
             <p>Wir senden dir deine Word-Vorlage per Mail</p>
@@ -33,7 +35,7 @@ export const ApplicationEnd = (props) => {
               <div>wurde abgeschickt. :)</div>
             ) : (
               <form onSubmit={handleFormSubmit}>
-                <label for="br-email">Deine E-Mail</label>
+                <label htmlFor="br-email">Deine E-Mail</label>
                 <input
                   id="br-email"
                   type="email"
@@ -67,10 +69,10 @@ export const ApplicationEnd = (props) => {
             )}
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="br-final-output">
         {props.checkAgainst.map((el) => (
-          <p>{props.output[el.title]}</p>
+          <p key={el}>{props.output[el]}</p>
         ))}
       </div>
     </>

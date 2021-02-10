@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
-import { applicationQuestions } from './applicationQuestions';
+// import { applicationQuestions } from './applicationQuestions';
 import { Alert } from '@material-ui/lab';
 
 import { ApplicationStart } from './ApplicationStart';
 import { ApplicationEnd } from './ApplicationEnd';
 import './applicationLetter.css';
 
+const application = require('./applicationQuestions.json');
+const questionKeys = Object.keys(application);
+
 export const ApplicationLetter = () => {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [current, setCurrent] = useState(0);
   const [chosenAnswer, setChosenAnswer] = useState({});
   const [lastQuestion, setLastQuestion] = useState(false);
   const [warning, setWarning] = useState(false);
@@ -28,11 +31,8 @@ export const ApplicationLetter = () => {
   }
 
   function checkAnswers() {
-    if (currentQuestion + 1 === applicationQuestions.length) {
-      if (
-        Object.keys(chosenAnswer).length ===
-        applicationQuestions.length
-      ) {
+    if (current + 1 === questionKeys.length) {
+      if (Object.keys(chosenAnswer).length === questionKeys.length) {
         setLastQuestion(true);
       } else {
         setWarning(true);
@@ -41,7 +41,7 @@ export const ApplicationLetter = () => {
         }, 3000);
       }
     } else {
-      setCurrentQuestion(currentQuestion + 1);
+      setCurrent(current + 1);
     }
   }
 
@@ -51,18 +51,20 @@ export const ApplicationLetter = () => {
         checkAnswers();
         break;
       case 'prev':
-        currentQuestion - 1 < 0
-          ? setStart(false)
-          : setCurrentQuestion(currentQuestion - 1);
+        current - 1 < 0 ? setStart(false) : setCurrent(current - 1);
         break;
     }
   }
+
+  const answerOptions =
+    application[questionKeys[current]].answerOptions;
+  const answerTitle = application[questionKeys[current]].title;
 
   if (lastQuestion) {
     return (
       <ApplicationEnd
         output={chosenAnswer}
-        checkAgainst={applicationQuestions}
+        checkAgainst={questionKeys}
       />
     );
   } else if (!start) {
@@ -72,10 +74,10 @@ export const ApplicationLetter = () => {
       <div className="br-application-background page">
         <div className="application-status">
           <span className="br-para">
-            {currentQuestion + 1}/{applicationQuestions.length}
+            {current + 1}/{questionKeys.length}
           </span>
           <span className="br-heading">
-            {applicationQuestions[currentQuestion].title}
+            {application[questionKeys[current]].title}
           </span>
           <span className="br-para">Wähle einen Baustein</span>
         </div>
@@ -110,28 +112,23 @@ export const ApplicationLetter = () => {
         </div>
 
         <div className="application-answers">
-          {applicationQuestions[currentQuestion].answerOptions.map(
-            (answerOption, index) => (
-              <button
-                key={index}
-                className={
-                  Object.values(chosenAnswer).some(
-                    (answer) => answer === answerOption
-                  )
-                    ? 'br-chosen'
-                    : 'br-para'
-                }
-                onClick={() =>
-                  handleButtonClick(
-                    answerOption,
-                    applicationQuestions[currentQuestion].title
-                  )
-                }
-              >
-                {answerOption}
-              </button>
-            )
-          )}
+          {answerOptions.map((option) => (
+            <button
+              key={option.id}
+              className={
+                Object.values(chosenAnswer).some(
+                  (answer) => answer === option.answer
+                )
+                  ? 'br-chosen'
+                  : 'br-para'
+              }
+              onClick={() =>
+                handleButtonClick(option.answer, answerTitle)
+              }
+            >
+              {option.answer}
+            </button>
+          ))}
         </div>
 
         {warning && (
