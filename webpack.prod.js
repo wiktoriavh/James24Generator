@@ -9,7 +9,7 @@ module.exports = {
   entry: path.resolve(__dirname, './src/index.js'),
   mode: 'production',
   output: {
-    filename: 'index.js',
+    filename: 'applicationGeneratorOutputOnly.js',
     path: path.resolve(__dirname, 'build'),
     publicPath: './',
   },
