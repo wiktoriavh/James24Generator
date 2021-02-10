@@ -23,7 +23,6 @@ export const ApplicationLetter = () => {
   function handleButtonClick(answer, title) {
     const constructNewObject = chosenAnswer;
     constructNewObject[title] = answer;
-    console.log(chosenAnswer);
 
     setChosenAnswer(constructNewObject);
 

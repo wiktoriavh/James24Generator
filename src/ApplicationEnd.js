@@ -20,7 +20,6 @@ export const ApplicationEnd = (props) => {
     }, 3000);
   }
 
-  console.log(props.checkAgainst);
 
   return (
     <>
