@@ -255,7 +255,6 @@
 @media (min-width: 768px) {
   #br-application-generator {
     --font-size: 1.1rem;
-    margin: auto;
     height: auto;
   }
 
