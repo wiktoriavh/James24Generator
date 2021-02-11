@@ -42,6 +42,20 @@ module.exports = {
           },
         },
       },
+      // {
+      //   test: /\.css$/i,
+      //   type: 'asset/resource',
+      //   generator: {
+      //     filename: '[name].css',
+      //   },
+      // },
+      // {
+      //   test: /\.json$/i,
+      //   type: 'asset/resource',
+      //   generator: {
+      //     filename: '[name].json',
+      //   },
+      // },
     ],
   },
   plugins: [
