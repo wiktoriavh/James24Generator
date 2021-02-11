@@ -3,7 +3,8 @@ import { Button } from '@material-ui/core';
 
 export const ApplicationStart = (props) => {
   return (
-    <div className="br-square">
+    // <div className="br-square">
+    <>
       <div className="br-application-background start">
         <div className="br-left-col">
           <div>
@@ -33,6 +34,7 @@ export const ApplicationStart = (props) => {
           </Button>
         </div>
       </div>
-    </div>
+      {/* </div> */}
+    </>
   );
 };
