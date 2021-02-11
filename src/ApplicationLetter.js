@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { applicationQuestions } from './applicationQuestions';
 import { Alert } from '@material-ui/lab';
 
 import { ApplicationStart } from './ApplicationStart';
