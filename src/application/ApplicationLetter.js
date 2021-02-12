@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Alert } from '@material-ui/lab';
 
-import { ApplicationStart } from './ApplicationStart';
+import { ApplicationStart } from '../ApplicationStart';
 import { ApplicationEnd } from './ApplicationEnd';
 import './applicationLetter.css';
+
+import { handleButtonStart } from '../_blocks/handleButtonStart';
 
 const application = require('./applicationQuestions.json');
 const questionKeys = Object.keys(application);
@@ -15,9 +17,6 @@ export const ApplicationLetter = () => {
   const [warning, setWarning] = useState(false);
 
   const [start, setStart] = useState(false);
-  function handleButtonStart() {
-    setStart(true);
-  }
 
   function handleButtonClick(answer, title) {
     const constructNewObject = chosenAnswer;
@@ -66,7 +65,11 @@ export const ApplicationLetter = () => {
       />
     );
   } else if (!start) {
-    return <ApplicationStart handleButtonStart={handleButtonStart} />;
+    return (
+      <ApplicationStart
+        handleButtonStart={() => handleButtonStart(setStart)}
+      />
+    );
   } else {
     return (
       <div className="br-application-background page">
