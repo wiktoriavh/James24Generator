@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-#br-application-generator {
+#br-generator {
   --turquoise: #4ecac2;
   --turquoise-hover: #6aada9;
   --pink: #e14d9c;
@@ -24,14 +24,14 @@
   box-sizing: border-box;
 }
 
-#br-application-generator .br-square {
+#br-generator .br-square {
   position: relative;
   height: 0;
   padding-top: 100%;
   width: 100%;
 }
 
-#br-application-generator .br-application-background {
+#br-generator .background {
   background-color: var(--turquoise);
   box-shadow: 0px 0px 5px 0px rgb(106, 173, 169);
   border-radius: 20px;
@@ -42,12 +42,12 @@
   box-sizing: border-box;
 }
 
-#br-application-generator .br-square .br-application-background {
+#br-generator .br-square .background {
   height: 100%;
   position: absolute;
 }
 
-#br-application-generator .br-application-background.page {
+#br-generator .background.page {
   border-radius: 0px;
   min-height: 100vh;
   background: var(--dark-grey);
@@ -57,7 +57,7 @@
   margin: 0 -25px;
 }
 
-#br-application-generator > .br-application-background.start {
+#br-generator > .background.start {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -66,20 +66,20 @@
   /* position: static; */
 }
 
-#br-application-generator .br-left-col {
+#br-generator .br-left-col {
   width: auto;
   max-width: 100px;
   margin-right: 20px;
 }
 
-#br-application-generator .br-left-col > div {
+#br-generator .br-left-col > div {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-#br-application-generator .br-right-col {
+#br-generator .br-right-col {
   flex: 3;
   display: flex;
   flex-direction: column;
@@ -88,33 +88,33 @@
   color: white;
 }
 
-#br-application-generator .br-start-title {
+#br-generator .br-start-title {
   font-size: 1.3rem;
   font-weight: 700;
   color: white;
 }
 
-#br-application-generator img {
+#br-generator img {
   width: 100%;
 }
 
-#br-application-generator .br-para,
-#br-application-generator .application-answers .br-chosen {
+#br-generator .br-para,
+#br-generator .br-answers .br-chosen {
   font-size: var(--para-size);
 }
 
-#br-application-generator .application-answers .br-para,
-#br-application-generator .application-answers .br-chosen {
+#br-generator .br-answers .br-para,
+#br-generator .br-answers .br-chosen {
   font-size: 0.6em;
 }
 
-#br-application-generator .br-heading {
+#br-generator .br-heading {
   font-size: var(--heading-size);
   text-align: left;
 }
 
-#br-application-generator
-  .br-application-background
+#br-generator
+  .background
   .application-final {
   display: flex;
   flex-direction: column;
@@ -122,8 +122,8 @@
   height: 100%;
 }
 
-#br-application-generator
-  .br-application-background
+#br-generator
+  .background
   .application-final
   > p {
   text-align: center;
@@ -132,8 +132,8 @@
   color: white;
 }
 
-#br-application-generator
-  .br-application-background
+#br-generator
+  .background
   .application-final
   > div {
   display: flex;
@@ -143,7 +143,7 @@
   flex: 1;
 }
 
-#br-application-generator .br-final-output {
+#br-generator .br-final-output {
   background: var(--light-grey);
   padding: 1.5rem;
   margin: 1rem -25px;
@@ -151,55 +151,55 @@
   width: calc(100% + 50px);
 }
 
-#br-application-generator .br-final-output p {
+#br-generator .br-final-output p {
   margin: 1rem 0;
 }
 
-#br-application-generator .br-button-pink,
-#br-application-generator .br-button-pink:focus {
+#br-generator .br-button-pink,
+#br-generator .br-button-pink:focus {
   background: var(--pink);
   padding: 10px 20px;
   margin: 1em auto 0 0;
 }
 
-#br-application-generator .application-final .br-button-pink {
+#br-generator .application-final .br-button-pink {
   margin: 0 auto;
 }
 
-#br-application-generator .br-button-pink:hover {
+#br-generator .br-button-pink:hover {
   background: var(--pink-hover);
 }
 
-#br-application-generator .br-arrows {
+#br-generator .br-arrows {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-#br-application-generator .br-arrows button,
-#br-application-generator .br-arrows button:focus {
+#br-generator .br-arrows button,
+#br-generator .br-arrows button:focus {
   width: 40%;
   background: var(--turquoise);
 }
 
-#br-application-generator .br-arrows button:hover {
+#br-generator .br-arrows button:hover {
   background: var(--turquoise-hover);
 }
 
-#br-application-generator .br-arrows svg {
+#br-generator .br-arrows svg {
   width: 1rem;
   fill: white;
 }
 
-#br-application-generator .br-arrows .br-arrow-left svg {
+#br-generator .br-arrows .br-arrow-left svg {
   transform: rotate(-90deg);
 }
 
-#br-application-generator .br-arrows .br-arrow-right svg {
+#br-generator .br-arrows .br-arrow-right svg {
   transform: rotate(90deg);
 }
 
-#br-application-generator button {
+#br-generator button {
   background: var(--medium-grey);
   border: 0;
   color: white;
@@ -210,19 +210,19 @@
   font-family: var(--font-family);
 }
 
-#br-application-generator button:hover {
+#br-generator button:hover {
   background: var(--pink);
 }
 
-#br-application-generator button:focus {
+#br-generator button:focus {
   background: var(--medium-grey);
 }
 
-#br-application-generator button.br-chosen {
+#br-generator button.br-chosen {
   background: var(--pink);
 }
 
-#br-application-generator .application-status {
+#br-generator .br-status {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -230,15 +230,15 @@
   color: white;
 }
 
-#br-application-generator .application-status span:nth-child(1) {
+#br-generator .br-status span:nth-child(1) {
   font-weight: 700;
 }
 
-#br-application-generator .application-status span:nth-child(2) {
+#br-generator .br-status span:nth-child(2) {
   font-weight: 700;
 }
 
-#br-application-generator .application-final form {
+#br-generator .application-final form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -247,7 +247,7 @@
   margin-top: 0;
 }
 
-#br-application-generator .br-warning {
+#br-generator .br-warning {
   position: fixed;
   bottom: 2rem;
   left: 50%;
@@ -255,56 +255,56 @@
   width: 85%;
 }
 
-#br-application-generator .MuiCheckbox-colorSecondary.Mui-checked {
+#br-generator .MuiCheckbox-colorSecondary.Mui-checked {
   color: var(--pink);
 }
 
 @media (min-width: 768px) {
-  #br-application-generator {
+  #br-generator {
     --font-size: 1.1rem;
     height: auto;
   }
 
-  #br-application-generator .br-square {
+  #br-generator .br-square {
     margin: auto;
     padding-top: 0;
     height: 100%;
   }
 
-  #br-application-generator .br-square .br-application-background {
+  #br-generator .br-square .background {
     height: auto;
     position: static;
   }
 
-  #br-application-generator .br-application-background,
-  #br-application-generator
-    .br-application-background.start
-    #br-application-generator
-    .br-application-background.end {
+  #br-generator .background,
+  #br-generator
+    .background.start
+    #br-generator
+    .background.end {
     /* max-width: 788px; */
     width: 100%;
     margin: auto;
     position: static;
   }
 
-  #br-application-generator .br-application-background.start,
-  #br-application-generator .br-start-title {
+  #br-generator .background.start,
+  #br-generator .br-start-title {
     text-align: left;
   }
 
-  #br-application-generator .br-left-col {
+  #br-generator .br-left-col {
     max-width: 100%;
   }
 
-  #br-application-generator .br-left-col img {
+  #br-generator .br-left-col img {
     height: 150px;
     margin: 1rem 0;
     width: auto;
     border-radius: 11px;
   }
 
-  #br-application-generator .application-answers .br-para,
-  #br-application-generator .application-answers .br-chosen {
+  #br-generator .br-answers .br-para,
+  #br-generator .br-answers .br-chosen {
     font-size: 0.8em;
     width: 100%;
   }

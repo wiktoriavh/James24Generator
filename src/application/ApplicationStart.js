@@ -5,7 +5,7 @@ export const ApplicationStart = (props) => {
   return (
     // <div className="br-square">
     <>
-      <div className="br-application-background start">
+      <div className="background start">
         <div className="br-left-col">
           <div>
             <img

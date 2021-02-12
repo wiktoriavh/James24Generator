@@ -24,7 +24,7 @@ export const ApplicationEnd = (props) => {
   return (
     <>
       {/* <div className="br-square">
-        <div className="br-application-background end">
+        <div className="background end">
           <div className="application-final">
             <p>Wir senden dir deine Word-Vorlage per Mail</p>
 

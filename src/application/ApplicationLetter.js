@@ -72,8 +72,8 @@ export const ApplicationLetter = () => {
     );
   } else {
     return (
-      <div className="br-application-background page">
-        <div className="application-status">
+      <div className="background page">
+        <div className="br-status">
           <span className="br-para">
             {current + 1}/{questionKeys.length}
           </span>
@@ -112,7 +112,7 @@ export const ApplicationLetter = () => {
           </button>
         </div>
 
-        <div className="application-answers">
+        <div className="br-answers">
           {answerOptions.map((option) => (
             <button
               key={option.id}
