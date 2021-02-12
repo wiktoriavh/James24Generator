@@ -1,0 +1,87 @@
+{
+  "questions": {},
+  "output": {
+    "einleitung": {
+      "id": 1000,
+      "ausgangslage": {
+        "id": 1010,
+        "example": [
+          {
+            "paragraph": "Die zunehmende Digitalisierung hat unser Leben, Arbeiten und das gesellschaftliche Miteinander mit neuen Informations- und Kommunikationstechnologien einschneidend verändert. (vgl. Boes 2014, S. 11)",
+            "id": 1100
+          },
+          {
+            "paragraph": "Die digitale Transformation zwingt Unternehmen mit rasanter Geschwindigkeit dazu, sich von erfolgreich etablierten Marken und gebräuchlichen Geschäftsmodellen zu verabschieden.",
+            "id": 1101
+          },
+          {
+            "paragraph": "Marketing und Vertrieb gehören zu jenen Bereichen, die durch die Digitalisierung mit am stärksten betroffen sind. Unternehmen / Verantwortliche im strategischen Management müssen sich damit befassen, welche Herausforderungen auf Mitarbeiterinnen sowie den Bereichen Vertrieb, Marketing, Kommunikation und Service zukommen, . (vgl. Kreutzer/Land, 2016, S. V-VIII)",
+            "id": 1102
+          },
+          {
+            "paragraph": "KMU haben im Vergleich zu Großunternehmen weit weniger Ressourcen zur Verfügung, um einen Transformationsprozess, wie ihn der Megatrend Digitalisierung abverlangt, stemmen zu können.",
+            "id": 1103
+          }
+        ],
+        "help": [
+          {
+            "title": "Definition",
+            "text": [
+              {
+                "paragraph": "Die Ausgangslage verortet das Forschungsfeld und gibt dem Leser eine erste Orientierung.",
+                "id": 1200
+              }
+            ]
+          },
+          {
+            "title": "Tipps",
+            "text": [
+              {
+                "paragraph": "- Versuch ganz allgemein zu beginnen, bspw. mit einem Aufhänger (Medienereignis).",
+                "id": 1201
+              },
+              {
+                "paragraph": "- Gehe dann auf die Forschungsfelder ein. Benenne die Felder konkret (in Fachsprache / Keywords denken).",
+                "id": 1202
+              },
+              {
+                "paragraph": "- Spanne den Bogen zur Relevanz und arbeite mit einer stringenten,, hierarchischen Argumentationskette (vom Allgemeinen ins Konkrete)",
+                "id": 1203
+              }
+            ]
+          },
+          {
+            "title": "Beispiel",
+            "text": [
+              {
+                "paragraph": "Our topic is located in the realm of budget allocation in online marketing, with the special focus on attribution modeling...",
+                "id": 1204
+              }
+            ]
+          },
+          {
+            "title": "Checkliste",
+            "text": [
+              {
+                "paragraph": "- Wurden Keywords verwendet, mit denen das Thema wissenschaftlich in Verbindung gebracht wird?",
+                "id": 1205
+              },
+              {
+                "paragraph": "- Gibt die Verortung einem Leser, der nicht im Thema steckt eine Idee davon, worum es geht?",
+                "id": 1206
+              },
+              {
+                "paragraph": "- Wurde das Forschungsfeld konkret genug benannt?",
+                "id": 1207
+              },
+              {
+                "paragraph": "- Wurde eine Brücke zur Relevanzbegründung des Themas gebaut?",
+                "id": 1208
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
