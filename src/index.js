@@ -5,7 +5,7 @@ import { ApplicationLetter } from './application/ApplicationLetter';
 
 ReactDOM.render(
   <ApplicationLetter />,
-  document.getElementById('br-application-generator')
+  document.querySelector('#br-generator.application')
 );
 
 module.hot.accept();
