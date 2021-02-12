@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Alert } from '@material-ui/lab';
 
-import { ApplicationStart } from '../ApplicationStart';
+import { ApplicationStart } from './ApplicationStart';
 import { ApplicationEnd } from './ApplicationEnd';
 import './applicationLetter.css';
 
