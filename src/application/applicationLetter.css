@@ -113,29 +113,21 @@
   text-align: left;
 }
 
-#br-generator
-  .background
-  .application-final {
+#br-generator .background .application-final {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
 
-#br-generator
-  .background
-  .application-final
-  > p {
+#br-generator .background .application-final > p {
   text-align: center;
   font-size: 1.3rem;
   font-weight: 700;
   color: white;
 }
 
-#br-generator
-  .background
-  .application-final
-  > div {
+#br-generator .background .application-final > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,6 +251,10 @@
   color: var(--pink);
 }
 
+#br-generator .bullet-points {
+  margin-left: 3rem;
+}
+
 @media (min-width: 768px) {
   #br-generator {
     --font-size: 1.1rem;
@@ -277,10 +273,7 @@
   }
 
   #br-generator .background,
-  #br-generator
-    .background.start
-    #br-generator
-    .background.end {
+  #br-generator .background.start #br-generator .background.end {
     /* max-width: 788px; */
     width: 100%;
     margin: auto;
