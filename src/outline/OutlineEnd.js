@@ -14,10 +14,11 @@ export const OutlineEnd = (props) => {
     }, 3000);
   }
 
+  function toggleBulletPoint(el) {
+    document.getElementById(el).classList.toggle('hide');
+  }
+
   const intro = props.output.einleitung;
-  intro.outline.map((bullet) => {
-    console.log(bullet.title);
-  });
 
   return (
     <>
@@ -25,7 +26,16 @@ export const OutlineEnd = (props) => {
         <strong>{intro.title}</strong>
         <ol className="bullet-points">
           {intro.outline.map((bullet) => {
-            return <li key={bullet.id}>{bullet.title}</li>;
+            return (
+              <li key={bullet.id}>
+                <span className="bullet-point" onClick={() => toggleBulletPoint(bullet.id)}>
+                  {bullet.title}
+                </span>
+                <div className="hide" id={bullet.id}>
+                  <p>Das ist ein langer Text...</p>
+                </div>
+              </li>
+            );
           })}
         </ol>
       </div>
