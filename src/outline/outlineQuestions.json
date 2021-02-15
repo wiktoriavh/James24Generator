@@ -53,337 +53,342 @@
   ],
   "output": {
     "einleitung": {
+      "title": "Einleitung",
       "id": "1",
-      "ausgangslage": {
-        "id": "1.1",
-        "example": [
-          {
-            "paragraph": "Die zunehmende Digitalisierung hat unser Leben, Arbeiten und das gesellschaftliche Miteinander mit neuen Informations- und Kommunikationstechnologien einschneidend verändert. (vgl. Boes 2014, S. 11)",
-            "id": "1.1-p-1"
-          },
-          {
-            "paragraph": "Die digitale Transformation zwingt Unternehmen mit rasanter Geschwindigkeit dazu, sich von erfolgreich etablierten Marken und gebräuchlichen Geschäftsmodellen zu verabschieden.",
-            "id": "1.1-p-2"
-          },
-          {
-            "paragraph": "Marketing und Vertrieb gehören zu jenen Bereichen, die durch die Digitalisierung mit am stärksten betroffen sind. Unternehmen / Verantwortliche im strategischen Management müssen sich damit befassen, welche Herausforderungen auf Mitarbeiterinnen sowie den Bereichen Vertrieb, Marketing, Kommunikation und Service zukommen, . (vgl. Kreutzer/Land, 2016, S. V-VIII)",
-            "id": "1.1-p-3"
-          },
-          {
-            "paragraph": "KMU haben im Vergleich zu Großunternehmen weit weniger Ressourcen zur Verfügung, um einen Transformationsprozess, wie ihn der Megatrend Digitalisierung abverlangt, stemmen zu können.",
-            "id": "1.1-p-4"
-          }
-        ],
-        "help": [
-          {
-            "title": "Definition",
-            "text": [
-              {
-                "paragraph": "Die Ausgangslage verortet das Forschungsfeld und gibt dem Leser eine erste Orientierung.",
-                "id": "1.1-h-1"
-              }
-            ]
-          },
-          {
-            "title": "Tipps",
-            "text": [
-              {
-                "paragraph": "- Versuch ganz allgemein zu beginnen, bspw. mit einem Aufhänger (Medienereignis).",
-                "id": "1.1-h-2.1"
-              },
-              {
-                "paragraph": "- Gehe dann auf die Forschungsfelder ein. Benenne die Felder konkret (in Fachsprache / Keywords denken).",
-                "id": "1.1-h-2.2"
-              },
-              {
-                "paragraph": "- Spanne den Bogen zur Relevanz und arbeite mit einer stringenten,, hierarchischen Argumentationskette (vom Allgemeinen ins Konkrete)",
-                "id": "1.1-h-2.3"
-              }
-            ]
-          },
-          {
-            "title": "Beispiel",
-            "text": [
-              {
-                "paragraph": "Our topic is located in the realm of budget allocation in online marketing, with the special focus on attribution modeling...",
-                "id": "1.1-h-3"
-              }
-            ]
-          },
-          {
-            "title": "Checkliste",
-            "text": [
-              {
-                "paragraph": "- Wurden Keywords verwendet, mit denen das Thema wissenschaftlich in Verbindung gebracht wird?",
-                "id": "1.1-h-4.1"
-              },
-              {
-                "paragraph": "- Gibt die Verortung einem Leser, der nicht im Thema steckt eine Idee davon, worum es geht?",
-                "id": "1.1-h-4.2"
-              },
-              {
-                "paragraph": "- Wurde das Forschungsfeld konkret genug benannt?",
-                "id": "1.1-h-4.3"
-              },
-              {
-                "paragraph": "- Wurde eine Brücke zur Relevanzbegründung des Themas gebaut?",
-                "id": "1.1-h-4.4"
-              }
-            ]
-          }
-        ]
-      },
-      "motivation": {
-        "id": "1.2",
-        "example": [
-          {
-            "paragraph": "Die Relevanz des Themas begründet sich aus drei Feststellungen:",
-            "id": "1.2-p-1"
-          },
-          {
-            "paragraph": "a) Digitalisierung gehört zu den größten Herausforderungen für Unternehmen",
-            "id": "1.2-p-2"
-          },
-          {
-            "paragraph": "b) Marketing und Vertrieb sind von der Digitalisierung besonders stark betroffen",
-            "id": "1.2-p-3"
-          },
-          {
-            "paragraph": "c) KMUs sind von dieser Herausforderung besonders stark betroffen",
-            "id": "1.2-p-4"
-          }
-        ],
-        "help": [
-          {
-            "title": "Definition",
-            "text": [
-              {
-                "paragraph": "Die Motivation begründet die Relevanz deiner Arbeit und ist damit die Vorstufe zur konkreten Problemstellung.",
-                "id": "1.2-h-1"
-              }
-            ]
-          },
-          {
-            "title": "Tipps",
-            "text": [
-              {
-                "paragraph": "- Argumentationskette der Ausgangslage aufgreifen",
-                "id": "1.2-h-2"
-              }
-            ]
-          },
-          {
-            "title": "Beispiel",
-            "text": [
-              {
-                "paragraph": "",
-                "id": "1.2-h-3"
-              }
-            ]
-          },
-          {
-            "title": "Checkliste",
-            "text": [
-              {
-                "paragraph": "- Passt die die Motivation mit der Ausgangslage zusammen?",
-                "id": "1.2-h-4.1"
-              },
-              {
-                "paragraph": "- Lässt sich aus der Motivation eine konkrete Problemstellung ableiten?",
-                "id": "1.2-h-4.1"
-              }
-            ]
-          }
-        ]
-      },
-      "problemstellung": {
-        "id": "1.3",
-        "title": "Problemstellung",
-        "example": [
-          {
-            "paragraph": "KMU haben im Vergleich zu Großunternehmen weit weniger Ressourcen zur Verfügung haben, um einen Transformationsprozess, wie ihn der Megatrend Digitalisierung abverlangt, stemmen zu können",
-            "id": "1.3-p-1"
-          }
-        ],
-        "help": [
-          {
-            "title": "Definition",
-            "text": [
-              {
-                "paragraph": "",
-                "id": ""
-              }
-            ]
-          },
-          {
-            "title": "Tipps",
-            "text": [
-              {
-                "paragraph": "",
-                "id": ""
-              }
-            ]
-          },
-          {
-            "title": "Beispiel",
-            "text": [
-              {
-                "paragraph": "",
-                "id": ""
-              }
-            ]
-          },
-          {
-            "title": "Checkliste",
-            "text": [
-              {
-                "paragraph": "",
-                "id": ""
-              }
-            ]
-          }
-        ]
-      },
-      "ziel": {
-        "id": "1.4",
-        "title": "Ziel",
-        "example": [
-          {
-            "paragraph": "Ziel ist das Identifizieren der Herausforderungen von KMUs bei der Kundengewinnung über digitale Marketingkanäle.",
-            "id": "1.4-p-1"
-          },
-          {
-            "paragraph": "Hierzu werden Experteninterviews geführt und als qualitative Inhaltsanalyse ausgewertet.",
-            "id": "1.4-p-2"
-          },
-          {
-            "paragraph": "Die Forschungsfrage lautet: Vor welchen Herausforderungen stehen KMUs bei der Kundengewinnung über digitale Marketingkanäle?",
-            "id": "1.4-p-3"
-          },
-          {
-            "paragraph": "Am Ende steht eine Tabelle, welche die größten Herausforderungen der relevantesten digitalen Marketingkanäle aufzeigt.",
-            "id": "1.4-p-4"
-          },
-          {
-            "paragraph": "Die Untersuchung beschränkt sich auf das Identifizieren der Herausforderungen aus Sicht der KMUs. Eine Potentialbewertung der Kanäle ist nicht Teil dieser Untersuchung.",
-            "id": "1.4-p-5"
-          }
-        ],
-        "help": [
-          {
-            "title": "Definition",
-            "text": [
-              {
-                "paragraph": "Das Ziel der Arbeit ergibt sich aus der Problemstellung",
-                "id": "1.4-h-1"
-              }
-            ]
-          },
-          {
-            "title": "Tipps",
-            "text": [
-              {
-                "paragraph": "- Nimm dir Zeit und formulier das Ziel so konkret wie möglich. Dies erspart dir später viel Zeit.",
-                "id": "1.4-h-2.1"
-              },
-              {
-                "paragraph": "- Gliedere die Zielformulierung in 5 Sätze:",
-                "id": "1.4-h-2.2"
-              },
-              {
-                "paragraph": "a) Was: Ziel ist...",
-                "id": "1.4-h-2.2"
-              },
-              {
-                "paragraph": "b) Wie: Hierzu wird...",
-                "id": "1.4-h-2.2"
-              },
-              {
-                "paragraph": "c) Forschungsfrage: Welchen...?",
-                "id": "1.4-h-2.2"
-              },
-              {
-                "paragraph": "d) Output: Am Ende steht.. (Tabelle, Handlungsempfehlung, ...)",
-                "id": "1.4-h-2.2"
-              },
-              {
-                "paragraph": "e) Abgrenzung: Die Arbeit beschränkt sich auf...",
-                "id": "1.4-h-2.2"
-              }
-            ]
-          },
-          {
-            "title": "Beispiel",
-            "text": [
-              {
-                "paragraph": "xxx",
-                "id": "1.4-h-3"
-              }
-            ]
-          },
-          {
-            "title": "Checkliste",
-            "text": [
-              {
-                "paragraph": "- Ist das Ziel eine logische Ableitung des Problems?",
-                "id": "1.4-h-4.1"
-              },
-              {
-                "paragraph": "- Passt das Ziel zum Problem?",
-                "id": "1.4-h-4.2"
-              }
-            ]
-          }
-        ]
-      },
-      "aufbau": {
-        "id": "1.5",
-        "title": "Aufbau",
-        "example": [
-          {
-            "paragraph": "",
-            "id": ""
-          }
-        ],
-        "help": [
-          {
-            "title": "Definition",
-            "text": [
-              {
-                "paragraph": "",
-                "id": ""
-              }
-            ]
-          },
-          {
-            "title": "Tipps",
-            "text": [
-              {
-                "paragraph": "",
-                "id": ""
-              }
-            ]
-          },
-          {
-            "title": "Beispiel",
-            "text": [
-              {
-                "paragraph": "",
-                "id": ""
-              }
-            ]
-          },
-          {
-            "title": "Checkliste",
-            "text": [
-              {
-                "paragraph": "",
-                "id": ""
-              }
-            ]
-          }
-        ]
-      }
+      "outline": [
+        {
+          "title": "Ausgangslage",
+          "id": "1.1",
+          "example": [
+            {
+              "paragraph": "Die zunehmende Digitalisierung hat unser Leben, Arbeiten und das gesellschaftliche Miteinander mit neuen Informations- und Kommunikationstechnologien einschneidend verändert. (vgl. Boes 2014, S. 11)",
+              "id": "1.1-p-1"
+            },
+            {
+              "paragraph": "Die digitale Transformation zwingt Unternehmen mit rasanter Geschwindigkeit dazu, sich von erfolgreich etablierten Marken und gebräuchlichen Geschäftsmodellen zu verabschieden.",
+              "id": "1.1-p-2"
+            },
+            {
+              "paragraph": "Marketing und Vertrieb gehören zu jenen Bereichen, die durch die Digitalisierung mit am stärksten betroffen sind. Unternehmen / Verantwortliche im strategischen Management müssen sich damit befassen, welche Herausforderungen auf Mitarbeiterinnen sowie den Bereichen Vertrieb, Marketing, Kommunikation und Service zukommen, . (vgl. Kreutzer/Land, 2016, S. V-VIII)",
+              "id": "1.1-p-3"
+            },
+            {
+              "paragraph": "KMU haben im Vergleich zu Großunternehmen weit weniger Ressourcen zur Verfügung, um einen Transformationsprozess, wie ihn der Megatrend Digitalisierung abverlangt, stemmen zu können.",
+              "id": "1.1-p-4"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "Die Ausgangslage verortet das Forschungsfeld und gibt dem Leser eine erste Orientierung.",
+                  "id": "1.1-h-1"
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "- Versuch ganz allgemein zu beginnen, bspw. mit einem Aufhänger (Medienereignis).",
+                  "id": "1.1-h-2.1"
+                },
+                {
+                  "paragraph": "- Gehe dann auf die Forschungsfelder ein. Benenne die Felder konkret (in Fachsprache / Keywords denken).",
+                  "id": "1.1-h-2.2"
+                },
+                {
+                  "paragraph": "- Spanne den Bogen zur Relevanz und arbeite mit einer stringenten,, hierarchischen Argumentationskette (vom Allgemeinen ins Konkrete)",
+                  "id": "1.1-h-2.3"
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "Our topic is located in the realm of budget allocation in online marketing, with the special focus on attribution modeling...",
+                  "id": "1.1-h-3"
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "- Wurden Keywords verwendet, mit denen das Thema wissenschaftlich in Verbindung gebracht wird?",
+                  "id": "1.1-h-4.1"
+                },
+                {
+                  "paragraph": "- Gibt die Verortung einem Leser, der nicht im Thema steckt eine Idee davon, worum es geht?",
+                  "id": "1.1-h-4.2"
+                },
+                {
+                  "paragraph": "- Wurde das Forschungsfeld konkret genug benannt?",
+                  "id": "1.1-h-4.3"
+                },
+                {
+                  "paragraph": "- Wurde eine Brücke zur Relevanzbegründung des Themas gebaut?",
+                  "id": "1.1-h-4.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Motivation",
+          "id": "1.2",
+          "example": [
+            {
+              "paragraph": "Die Relevanz des Themas begründet sich aus drei Feststellungen:",
+              "id": "1.2-p-1"
+            },
+            {
+              "paragraph": "a) Digitalisierung gehört zu den größten Herausforderungen für Unternehmen",
+              "id": "1.2-p-2"
+            },
+            {
+              "paragraph": "b) Marketing und Vertrieb sind von der Digitalisierung besonders stark betroffen",
+              "id": "1.2-p-3"
+            },
+            {
+              "paragraph": "c) KMUs sind von dieser Herausforderung besonders stark betroffen",
+              "id": "1.2-p-4"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "Die Motivation begründet die Relevanz deiner Arbeit und ist damit die Vorstufe zur konkreten Problemstellung.",
+                  "id": "1.2-h-1"
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "- Argumentationskette der Ausgangslage aufgreifen",
+                  "id": "1.2-h-2"
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "",
+                  "id": "1.2-h-3"
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "- Passt die die Motivation mit der Ausgangslage zusammen?",
+                  "id": "1.2-h-4.1"
+                },
+                {
+                  "paragraph": "- Lässt sich aus der Motivation eine konkrete Problemstellung ableiten?",
+                  "id": "1.2-h-4.1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Problemstellung",
+          "example": [
+            {
+              "paragraph": "KMU haben im Vergleich zu Großunternehmen weit weniger Ressourcen zur Verfügung haben, um einen Transformationsprozess, wie ihn der Megatrend Digitalisierung abverlangt, stemmen zu können",
+              "id": "1.3-p-1"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "",
+                  "id": ""
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "",
+                  "id": ""
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "",
+                  "id": ""
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "",
+                  "id": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Ziel",
+          "example": [
+            {
+              "paragraph": "Ziel ist das Identifizieren der Herausforderungen von KMUs bei der Kundengewinnung über digitale Marketingkanäle.",
+              "id": "1.4-p-1"
+            },
+            {
+              "paragraph": "Hierzu werden Experteninterviews geführt und als qualitative Inhaltsanalyse ausgewertet.",
+              "id": "1.4-p-2"
+            },
+            {
+              "paragraph": "Die Forschungsfrage lautet: Vor welchen Herausforderungen stehen KMUs bei der Kundengewinnung über digitale Marketingkanäle?",
+              "id": "1.4-p-3"
+            },
+            {
+              "paragraph": "Am Ende steht eine Tabelle, welche die größten Herausforderungen der relevantesten digitalen Marketingkanäle aufzeigt.",
+              "id": "1.4-p-4"
+            },
+            {
+              "paragraph": "Die Untersuchung beschränkt sich auf das Identifizieren der Herausforderungen aus Sicht der KMUs. Eine Potentialbewertung der Kanäle ist nicht Teil dieser Untersuchung.",
+              "id": "1.4-p-5"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "Das Ziel der Arbeit ergibt sich aus der Problemstellung",
+                  "id": "1.4-h-1"
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "- Nimm dir Zeit und formulier das Ziel so konkret wie möglich. Dies erspart dir später viel Zeit.",
+                  "id": "1.4-h-2.1"
+                },
+                {
+                  "paragraph": "- Gliedere die Zielformulierung in 5 Sätze:",
+                  "id": "1.4-h-2.2"
+                },
+                {
+                  "paragraph": "a) Was: Ziel ist...",
+                  "id": "1.4-h-2.2"
+                },
+                {
+                  "paragraph": "b) Wie: Hierzu wird...",
+                  "id": "1.4-h-2.2"
+                },
+                {
+                  "paragraph": "c) Forschungsfrage: Welchen...?",
+                  "id": "1.4-h-2.2"
+                },
+                {
+                  "paragraph": "d) Output: Am Ende steht.. (Tabelle, Handlungsempfehlung, ...)",
+                  "id": "1.4-h-2.2"
+                },
+                {
+                  "paragraph": "e) Abgrenzung: Die Arbeit beschränkt sich auf...",
+                  "id": "1.4-h-2.2"
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "1.4-h-3"
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "- Ist das Ziel eine logische Ableitung des Problems?",
+                  "id": "1.4-h-4.1"
+                },
+                {
+                  "paragraph": "- Passt das Ziel zum Problem?",
+                  "id": "1.4-h-4.2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "Aufbau",
+          "example": [
+            {
+              "paragraph": "",
+              "id": ""
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "",
+                  "id": ""
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "",
+                  "id": ""
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "",
+                  "id": ""
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "",
+                  "id": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   }
 }
