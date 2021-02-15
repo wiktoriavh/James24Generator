@@ -22,10 +22,12 @@ export const OutlineEnd = (props) => {
   return (
     <>
       <div className="br-final-output">
-        <span>{intro.title}</span>
-        {intro.outline.map((bullet) => {
-          <span key={bullet.id}>{bullet.title}</span>;
-        })}
+        <strong>{intro.title}</strong>
+        <ol className="bullet-points">
+          {intro.outline.map((bullet) => {
+            return <li key={bullet.id}>{bullet.title}</li>;
+          })}
+        </ol>
       </div>
     </>
   );
