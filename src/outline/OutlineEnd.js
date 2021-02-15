@@ -1,10 +1,4 @@
 import React, { useState } from 'react';
-import {
-  FormControlLabel,
-  Checkbox,
-  FormHelperText,
-  Button,
-} from '@material-ui/core';
 
 export const OutlineEnd = (props) => {
   const [submitting, setSubmitting] = useState(false);
