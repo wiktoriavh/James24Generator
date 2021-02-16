@@ -51,8 +51,8 @@
       ]
     }
   ],
-  "output": {
-    "einleitung": {
+  "output": [
+    {
       "title": "Einleitung",
       "id": "1",
       "outline": [
@@ -194,7 +194,7 @@
                 },
                 {
                   "paragraph": "- Lässt sich aus der Motivation eine konkrete Problemstellung ableiten?",
-                  "id": "1.2-h-4.1"
+                  "id": "1.2-h-4.2"
                 }
               ]
             }
@@ -214,8 +214,8 @@
               "title": "Definition",
               "text": [
                 {
-                  "paragraph": "",
-                  "id": ""
+                  "paragraph": "Die Problemstellung ist der Anlass für Forschung und wissenschaftliches Arbeiten und gleichzeitig die Existenzberechtigung für deine Thesis. Ohne Problem gibt es keinen Forschungsbedarf. Ein relevantes Problem zu definieren sollte daher der erste Schritt sein.",
+                  "id": "1.3-p-2"
                 }
               ]
             },
@@ -223,8 +223,8 @@
               "title": "Tipps",
               "text": [
                 {
-                  "paragraph": "",
-                  "id": ""
+                  "paragraph": "- Stell sicher, dass Ausgangslage, Motivation und Problemstellung \"aus einem Guss\" sind. Wiederholungen / Überlappungen sind in Ordnung.",
+                  "id": "1.3-p-3"
                 }
               ]
             },
@@ -232,8 +232,8 @@
               "title": "Beispiel",
               "text": [
                 {
-                  "paragraph": "",
-                  "id": ""
+                  "paragraph": "KMU haben im Vergleich zu Großunternehmen weit weniger Ressourcen zur Verfügung haben, um einen Transformationsprozess, wie ihn der Megatrend Digitalisierung abverlangt, stemmen zu können",
+                  "id": "1.3-p-4"
                 }
               ]
             },
@@ -241,8 +241,20 @@
               "title": "Checkliste",
               "text": [
                 {
-                  "paragraph": "",
-                  "id": ""
+                  "paragraph": "- Ist die Problemstellung relevant?",
+                  "id": "1.3-p-5.1"
+                },
+                {
+                  "paragraph": "- Ist das Problem konkret benannt?",
+                  "id": "1.3-p-5.2"
+                },
+                {
+                  "paragraph": "- Ist die Problemstellung verständlich?",
+                  "id": "1.3-p-5.3"
+                },
+                {
+                  "paragraph": "- Ist die Problemstellung eine konkretisierte Variante der Motivation?",
+                  "id": "1.3-p-5.4"
                 }
               ]
             }
@@ -296,23 +308,23 @@
                 },
                 {
                   "paragraph": "a) Was: Ziel ist...",
-                  "id": "1.4-h-2.2"
+                  "id": "1.4-h-2.3"
                 },
                 {
                   "paragraph": "b) Wie: Hierzu wird...",
-                  "id": "1.4-h-2.2"
+                  "id": "1.4-h-2.4"
                 },
                 {
                   "paragraph": "c) Forschungsfrage: Welchen...?",
-                  "id": "1.4-h-2.2"
+                  "id": "1.4-h-2.5"
                 },
                 {
                   "paragraph": "d) Output: Am Ende steht.. (Tabelle, Handlungsempfehlung, ...)",
-                  "id": "1.4-h-2.2"
+                  "id": "1.4-h-2.6"
                 },
                 {
                   "paragraph": "e) Abgrenzung: Die Arbeit beschränkt sich auf...",
-                  "id": "1.4-h-2.2"
+                  "id": "1.4-h-2.7"
                 }
               ]
             },
@@ -389,6 +401,409 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Forschungsstand",
+      "id": "2",
+      "outline": [
+        {
+          "title": "Forschungsfeld 1",
+          "id": "2.1",
+          "example": [
+            {
+              "paragraph": "xxx",
+              "id": "2.1-p-1"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "2.1-h-1"
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "2.1-h-2.1"
+                },
+                {
+                  "paragraph": "xxx",
+                  "id": "2.1-h-2.2"
+                },
+                {
+                  "paragraph": "xxx",
+                  "id": "2.1-h-2.3"
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "2.1-h-3"
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "x",
+                  "id": "2.1-h-4.1"
+                },
+                {
+                  "paragraph": "x",
+                  "id": "2.1-h-4.2"
+                },
+                {
+                  "paragraph": "x",
+                  "id": "2.1-h-4.3"
+                },
+                {
+                  "paragraph": "x",
+                  "id": "2.1-h-4.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Forschungsfeld 2",
+          "id": "2.2",
+          "example": [
+            {
+              "paragraph": "xxx",
+              "id": "2.2-p-1"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "2.2-h-1"
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "2.2-h-2.1"
+                },
+                {
+                  "paragraph": "xxx",
+                  "id": "2.2-h-2.2"
+                },
+                {
+                  "paragraph": "xxx",
+                  "id": "2.2-h-2.3"
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "2.2-h-3"
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "x",
+                  "id": "2.2-h-4.1"
+                },
+                {
+                  "paragraph": "x",
+                  "id": "2.2-h-4.2"
+                },
+                {
+                  "paragraph": "x",
+                  "id": "2.2-h-4.3"
+                },
+                {
+                  "paragraph": "x",
+                  "id": "2.2-h-4.4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Analyse",
+      "id": "3",
+      "outline": [
+        {
+          "title": "Forschungsdesign",
+          "id": "3.1",
+          "example": [
+            {
+              "paragraph": "xxx",
+              "id": "3.1-p-1"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.1-h-1"
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.1-h-2.1"
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.1-h-3"
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "x",
+                  "id": "3.1-h-4.1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Methode",
+          "id": "3.2",
+          "example": [
+            {
+              "paragraph": "xxx",
+              "id": "3.2-p-1"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.2-h-1"
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.2-h-2.1"
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.2-h-3"
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "x",
+                  "id": "3.2-h-4.1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vorbereitung der Analyse",
+          "id": "3.3",
+          "example": [
+            {
+              "paragraph": "xxx",
+              "id": "3.3-p-1"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.3-h-1"
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.3-h-2.1"
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.3-h-3"
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "x",
+                  "id": "3.3-h-4.1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Durchführung der Analyse",
+          "id": "3.4",
+          "example": [
+            {
+              "paragraph": "xxx",
+              "id": "3.4-p-1"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.4-h-1"
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.4-h-2.1"
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.4-h-3"
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "x",
+                  "id": "3.4-h-4.1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ergebnisse",
+          "id": "3.5",
+          "example": [
+            {
+              "paragraph": "xxx",
+              "id": "3.5-p-1"
+            }
+          ],
+          "help": [
+            {
+              "title": "Definition",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.5-h-1"
+                }
+              ]
+            },
+            {
+              "title": "Tipps",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.5-h-2.1"
+                }
+              ]
+            },
+            {
+              "title": "Beispiel",
+              "text": [
+                {
+                  "paragraph": "xxx",
+                  "id": "3.5-h-3"
+                }
+              ]
+            },
+            {
+              "title": "Checkliste",
+              "text": [
+                {
+                  "paragraph": "x",
+                  "id": "3.5-h-4.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fazit & Diskussion",
+      "id": "4",
+      "outline": []
+    },
+    {
+      "title": "Verzeichnisse",
+      "id": "5",
+      "outline": []
+    },
+    {
+      "title": "Anhang",
+      "id": "6",
+      "outline": []
     }
-  }
+  ]
 }
