@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Fragment } from 'react';
 
-export const OutlineEnd = (props) => {
+export const OutlineEnd = ({ output }) => {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
@@ -14,27 +15,46 @@ export const OutlineEnd = (props) => {
     }, 3000);
   }
 
-  function toggleBulletPoint(el) {
-    document.getElementById(el).classList.toggle('hide');
-  }
-
-  const intro = props.output.einleitung;
-
   return (
     <>
       <div className="br-final-output">
-        <strong>{intro.title}</strong>
-        <ol className="bullet-points">
-          {intro.outline.map((bullet) => {
+        <ol>
+          {output.map((bullet) => {
             return (
-              <li key={bullet.id}>
-                <span className="bullet-point" onClick={() => toggleBulletPoint(bullet.id)}>
-                  {bullet.title}
-                </span>
-                <div className="hide" id={bullet.id}>
-                  <p>Das ist ein langer Text...</p>
-                </div>
-              </li>
+              <Fragment key={bullet.id}>
+                <li>
+                  <strong>{bullet.title}</strong>
+                </li>
+                <ol>
+                  {bullet.outline.map((outline) => {
+                    return (
+                      <Fragment key={outline.id}>
+                        <li>
+                          <details>
+                            <summary key={outline.id}>
+                              {outline.title}
+                            </summary>
+                            {outline.help.map((help) => {
+                              return (
+                                <Fragment key={help.title}>
+                                  <strong>{help.title}</strong>
+                                  {help.text.map((text) => {
+                                    return (
+                                      <p key={text.id}>
+                                        {text.paragraph}
+                                      </p>
+                                    );
+                                  })}
+                                </Fragment>
+                              );
+                            })}
+                          </details>
+                        </li>
+                      </Fragment>
+                    );
+                  })}
+                </ol>
+              </Fragment>
             );
           })}
         </ol>
