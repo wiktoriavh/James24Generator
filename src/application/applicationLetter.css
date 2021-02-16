@@ -255,19 +255,19 @@
   margin-left: 3rem;
 }
 
-#br-generator .bullet-point {
+#br-generator summary {
   cursor: pointer;
   display: block;
   padding: 5px;
   border-radius: 5px;
 }
 
-#br-generator .bullet-point:hover {
+#br-generator summary:hover {
   background: #c5c2c2;
 }
 
-.hide {
-  display: none;
+#br-generator ol {
+  margin-left: 2rem;
 }
 
 @media (min-width: 768px) {
