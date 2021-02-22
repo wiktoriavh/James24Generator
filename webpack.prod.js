@@ -31,17 +31,17 @@ module.exports = {
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
-      {
-        test: /\.(jpg|gif)$/i,
-        use: {
-          loader: 'file-loader',
-          options: {
-            esModule: false,
-            name: '[name].[hash].[ext]',
-            outputPath: 'assets/images',
-          },
-        },
-      },
+      // {
+      //   test: /\.(jpg|gif)$/i,
+      //   use: {
+      //     loader: 'file-loader',
+      //     options: {
+      //       esModule: false,
+      //       name: '[name].[hash].[ext]',
+      //       outputPath: 'assets/images',
+      //     },
+      //   },
+      // },
       // {
       //   test: /\.css$/i,
       //   type: 'asset/resource',
@@ -65,7 +65,7 @@ module.exports = {
           from: path.resolve(
             __dirname,
             'src',
-            'applicationQuestions.json'
+            'outlineQuestions.json'
           ),
         },
       ],
