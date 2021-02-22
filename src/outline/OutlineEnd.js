@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Fragment } from 'react';
+import { Details } from './Details';
 
 export const OutlineEnd = ({ output }) => {
   const [submitting, setSubmitting] = useState(false);
@@ -26,7 +27,9 @@ export const OutlineEnd = ({ output }) => {
                   <strong>{bullet.title}</strong>
                 </li>
                 <ol>
-                  {bullet.outline.map((outline) => {
+                  <Details details={bullet} />
+
+                  {/* {bullet.outline.map((outline) => {
                     return (
                       <Fragment key={outline.id}>
                         <li>
@@ -52,7 +55,7 @@ export const OutlineEnd = ({ output }) => {
                         </li>
                       </Fragment>
                     );
-                  })}
+                  })} */}
                 </ol>
               </Fragment>
             );
