@@ -29,7 +29,6 @@ import React, { Fragment } from 'react';
 // })}
 
 export const Details = ({ details }) => {
-
   console.log(details);
 
   return details.outline.map((outline) => {
