@@ -103,6 +103,10 @@
   font-size: var(--para-size);
 }
 
+#br-generator .br-answers button.br-para {
+  width: 100%;
+}
+
 #br-generator .br-answers .br-para,
 #br-generator .br-answers .br-chosen {
   font-size: 0.6em;
@@ -141,6 +145,11 @@
   margin: 1rem -25px;
   font-family: var(--monospace);
   width: calc(100% + 50px);
+}
+
+#br-generator ol ol {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #br-generator .br-final-output p {
@@ -264,10 +273,6 @@
 
 #br-generator summary:hover {
   background: #c5c2c2;
-}
-
-#br-generator ol {
-  margin-left: 2rem;
 }
 
 @media (min-width: 768px) {
