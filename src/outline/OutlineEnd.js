@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Fragment } from 'react';
 import { Details } from './Details';
 
-export const OutlineEnd = ({ output }) => {
+export const OutlineEnd = (props) => {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
@@ -16,11 +16,16 @@ export const OutlineEnd = ({ output }) => {
     }, 3000);
   }
 
+  console.group();
+  console.log('hello from end');
+  console.log(props);
+  console.groupEnd();
+
   return (
     <>
       <div className="br-final-output">
         <ol>
-          {output.map((bullet) => {
+          {props.output.map((bullet) => {
             return (
               <Fragment key={bullet.id}>
                 <li>
