@@ -7,8 +7,8 @@ import { OutlineEnd } from './OutlineEnd';
 
 import { handleButtonStart } from '../_blocks/handleButtonStart';
 
-const outline = require('./outlineQuestions.json');
-const questionKeys = Object.keys(outline);
+// const outline = require('./outlineQuestions.json'); // REQUIRE
+import outline from './outlineQuestions.json';
 
 export const OutlineGenerator = () => {
   const [current, setCurrent] = useState(0);
