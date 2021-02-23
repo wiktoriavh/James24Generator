@@ -6,7 +6,7 @@ import { OutlineGenerator } from './outline/OutlineGenerator';
 
 ReactDOM.render(
   <OutlineGenerator />,
-  document.querySelector('#br-generator.application')
+  document.querySelector('#br-generator.outline')
 );
 
 module.hot.accept();
