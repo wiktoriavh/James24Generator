@@ -10,7 +10,7 @@ export const OutlineStart = (props) => {
           <div>
             <img
               src={
-                'https://campusjames.com/wp-content/uploads/2021/02/applicationPreview.gif'
+                'https://campusjames.com/wp-content/uploads/2021/02/outlinePreview.gif'
               }
             />
           </div>
