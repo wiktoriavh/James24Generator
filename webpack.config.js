@@ -14,17 +14,6 @@ module.exports = {
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
-      {
-        test: /\.(jpg|gif)$/i,
-        use: {
-          loader: 'file-loader',
-          options: {
-            esModule: false,
-            name: '[name].[hash].[ext]',
-            outputPath: 'assets/images',
-          },
-        },
-      },
     ],
   },
   resolve: {
