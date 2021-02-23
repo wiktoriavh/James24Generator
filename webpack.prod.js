@@ -9,7 +9,7 @@ module.exports = {
   entry: path.resolve(__dirname, './src/index.js'),
   mode: 'production',
   output: {
-    filename: 'applicationGeneratorOutputOnly.js',
+    filename: 'outlineGenerator.js',
     path: path.resolve(__dirname, 'build'),
     publicPath: './',
   },
@@ -32,24 +32,6 @@ module.exports = {
         use: ['babel-loader'],
       },
       // {
-      //   test: /\.(jpg|gif)$/i,
-      //   use: {
-      //     loader: 'file-loader',
-      //     options: {
-      //       esModule: false,
-      //       name: '[name].[hash].[ext]',
-      //       outputPath: 'assets/images',
-      //     },
-      //   },
-      // },
-      // {
-      //   test: /\.css$/i,
-      //   type: 'asset/resource',
-      //   generator: {
-      //     filename: '[name].css',
-      //   },
-      // },
-      // {
       //   test: /\.json$/i,
       //   type: 'asset/resource',
       //   generator: {
@@ -64,7 +46,7 @@ module.exports = {
         {
           from: path.resolve(
             __dirname,
-            'src',
+            'src/outline',
             'outlineQuestions.json'
           ),
         },
