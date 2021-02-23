@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Alert } from '@material-ui/lab';
 
 import { OutlineStart } from './OutlineStart';
@@ -15,8 +15,19 @@ export const OutlineGenerator = () => {
   const [chosenAnswer, setChosenAnswer] = useState({});
   const [lastQuestion, setLastQuestion] = useState(false);
   const [warning, setWarning] = useState(false);
-
   const [start, setStart] = useState(false);
+  // const [outline, setOutline] = useState();
+
+  // useEffect(() => {
+  //   fetch(
+  //     'https://cors-anywhere.herokuapp.com/https://campusjames.com/wp-content/gen/outlineQuestions.json'
+  //   )
+  //     .then((response) => response.json())
+  //     .then(setOutline)
+  //     .catch((error) => {
+  //       console.log(error);
+  //     });
+  // }, []);
 
   function handleButtonClick(answer, title) {
     const constructNewObject = chosenAnswer;
@@ -51,6 +62,9 @@ export const OutlineGenerator = () => {
     }
   }
 
+  console.log('Jetzt mit einem Fetch!');
+
+  const questionKeys = Object.keys(outline);
   const outlineOutput = outline.output;
   const outlineTitle = outline.questions[current].question;
   const outlineAnswers = outline.questions[current].answers;
