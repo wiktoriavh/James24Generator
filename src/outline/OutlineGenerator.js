@@ -8,7 +8,7 @@ import { OutlineEnd } from './OutlineEnd';
 import { handleButtonStart } from '../_blocks/handleButtonStart';
 
 // const outline = require('./outlineQuestions.json'); // REQUIRE
-import outline from './outlineQuestions.json';
+// import outline from './outlineQuestions.json';
 
 export const OutlineGenerator = () => {
   const [current, setCurrent] = useState(0);
@@ -16,18 +16,18 @@ export const OutlineGenerator = () => {
   const [lastQuestion, setLastQuestion] = useState(false);
   const [warning, setWarning] = useState(false);
   const [start, setStart] = useState(false);
-  // const [outline, setOutline] = useState();
+  const [outline, setOutline] = useState();
 
-  // useEffect(() => {
-  //   fetch(
-  //     'https://cors-anywhere.herokuapp.com/https://campusjames.com/wp-content/gen/outlineQuestions.json'
-  //   )
-  //     .then((response) => response.json())
-  //     .then(setOutline)
-  //     .catch((error) => {
-  //       console.log(error);
-  //     });
-  // }, []);
+  useEffect(() => {
+    fetch(
+      'https://campusjames.com/wp-content/gen/outlineQuestions.json'
+    )
+      .then((response) => response.json())
+      .then(setOutline)
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
 
   function handleButtonClick(answer, title) {
     const constructNewObject = chosenAnswer;
@@ -61,13 +61,10 @@ export const OutlineGenerator = () => {
         break;
     }
   }
-
-  console.log('Jetzt mit einem Fetch!');
-
-  const questionKeys = Object.keys(outline);
-  const outlineOutput = outline.output;
-  const outlineTitle = outline.questions[current].question;
-  const outlineAnswers = outline.questions[current].answers;
+  const questionKeys = outline && Object.keys(outline);
+  const outlineOutput = outline?.output;
+  const outlineTitle = outline?.questions[current].question;
+  const outlineAnswers = outline?.questions[current].answers;
 
   if (lastQuestion) {
     return <OutlineEnd output={outlineOutput} />;
@@ -80,6 +77,7 @@ export const OutlineGenerator = () => {
   } else {
     return (
       <div className="background page">
+        {outline && <span>Trying to connect...</span>}
         <div className="br-status">
           <span className="br-para">
             {current + 1}/{outline.questions.length}
