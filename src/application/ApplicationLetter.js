@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Alert } from '@material-ui/lab';
 
 import { ApplicationStart } from './ApplicationStart';
@@ -7,16 +7,26 @@ import './applicationLetter.css';
 
 import { handleButtonStart } from '../_blocks/handleButtonStart';
 
-const application = require('./applicationQuestions.json');
-const questionKeys = Object.keys(application);
+// const application = require('./applicationQuestions.json');
 
 export const ApplicationLetter = () => {
   const [current, setCurrent] = useState(0);
   const [chosenAnswer, setChosenAnswer] = useState({});
   const [lastQuestion, setLastQuestion] = useState(false);
   const [warning, setWarning] = useState(false);
-
   const [start, setStart] = useState(false);
+  const [application, setApplication] = useState();
+
+  useEffect(() => {
+    fetch(
+      'https://campusjames.com/wp-content/gen/applicationQuestions.json'
+    )
+      .then((response) => response.json())
+      .then(setApplication)
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
 
   function handleButtonClick(answer, title) {
     const constructNewObject = chosenAnswer;
@@ -53,9 +63,10 @@ export const ApplicationLetter = () => {
     }
   }
 
+  const questionKeys = application && Object.keys(application);
   const answerOptions =
-    application[questionKeys[current]].answerOptions;
-  const answerTitle = application[questionKeys[current]].title;
+    application?.[questionKeys[current]].answerOptions;
+  const answerTitle = application?.[questionKeys[current]].title;
 
   if (lastQuestion) {
     return (
@@ -73,13 +84,16 @@ export const ApplicationLetter = () => {
   } else {
     return (
       <div className="background page">
+        {application ? (
+          console.log('Application has loaded.')
+        ) : (
+          <span>Trying to connect...</span>
+        )}
         <div className="br-status">
           <span className="br-para">
             {current + 1}/{questionKeys.length}
           </span>
-          <span className="br-heading">
-            {application[questionKeys[current]].title}
-          </span>
+          <span className="br-heading">{answerTitle}</span>
           <span className="br-para">Wähle einen Baustein</span>
         </div>
 
